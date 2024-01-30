@@ -1,0 +1,87 @@
+#productsSession .centralize{
+    padding: 100px 20px;
+}
+
+#productsSession{
+    width: 100%;
+    text-align: center;
+}
+
+.glasses{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+.glasses div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6f6f6;
+    width: calc(50% - 15px);
+    padding: 20px 10px;
+    margin-bottom: 20px;
+}
+
+.glasses div h3{
+    margin: 0;
+    font-size: 32px;
+}
+
+.glasses div img{
+    width: 80%;
+    max-height: 150px;
+    padding: 30px;
+    object-fit: contain;
+}
+
+.glasses div p{
+    margin: 0;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.list ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.list ul li{
+    margin: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    #productsSession{
+        padding: 60px 20px;
+    }
+
+    .glasses div h3{
+        font-size: 22px;
+    }
+
+    .glasses div img{
+        max-height: 100px;
+    }
+
+    .glasses div p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #productsSession{
+        padding: 60px 10px;
+    }
+
+    .glasses div{
+        width: 100%;
+    }
+
+    .list ul{
+        align-items: flex-start;
+    }
+}

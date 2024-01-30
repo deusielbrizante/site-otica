@@ -1,0 +1,14 @@
+footer{
+    background-color: #030303;
+}
+
+footer div{
+    width: 100%;
+}
+
+footer .centralize{
+    background-color: #030303;
+    text-align: center;
+    padding: 20px;
+    color: #adadad;
+}
